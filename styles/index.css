@@ -1,0 +1,38 @@
+.personajes {
+  height: 114px;
+  width: 90px;
+  margin: 0 auto;
+  background: url('../images/sonic.png');
+  /*background-position: -202px 0;*/
+  animation: correr 1s steps(3) infinite;
+  position: absolute;
+  left: 40%;
+  bottom: 100px;
+}
+
+.fondo {
+  margin: 0 auto;
+  height: 498px;
+  width: 1022px;
+  background: url('../images/fondo.png');
+  position: relative;
+  animation: animarFondo 3s linear infinite;
+}
+
+@keyframes correr {
+  0% {
+    background-position: 0px;
+  }
+  100% {
+    background-position: -304px;
+  }
+}
+
+@keyframes animarFondo {
+  0% {
+    background-position: 0px;
+  }
+  100% {
+    background-position: -1022px;
+  }
+}
