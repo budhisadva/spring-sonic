@@ -1,12 +1,12 @@
 .personajes {
   height: 54px;
-  width: 53px;
+  width: 54px;
   margin: 0 auto;
-  background: url('../images/sonic2.jpeg');
-  animation: correr 1s steps(4) infinite;
+  background: url('../images/sonic2.png');
+  animation: correr .2s steps(4) infinite;
   position: absolute;
   left: 40%;
-  bottom: 100px;
+  bottom: 120px;
 }
 
 .fondo {
