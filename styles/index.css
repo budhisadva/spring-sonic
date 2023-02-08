@@ -1,6 +1,6 @@
 .personajes {
   height: 54px;
-  width: 54px;
+  width: 52px;
   margin: 0 auto;
   background: url('../images/sonic2.png');
   animation: correr .2s steps(4) infinite;
