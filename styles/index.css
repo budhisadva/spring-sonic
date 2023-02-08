@@ -1,10 +1,9 @@
 .personajes {
-  height: 114px;
-  width: 90px;
+  height: 54px;
+  width: 53px;
   margin: 0 auto;
-  background: url('../images/sonic.png');
-  /*background-position: -202px 0;*/
-  animation: correr 1s steps(3) infinite;
+  background: url('../images/sonic2.jpeg');
+  animation: correr 1s steps(4) infinite;
   position: absolute;
   left: 40%;
   bottom: 100px;
@@ -24,7 +23,7 @@
     background-position: 0px;
   }
   100% {
-    background-position: -304px;
+    background-position: -213px;
   }
 }
 
